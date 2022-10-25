@@ -66,7 +66,7 @@ def linearofdoublen(num_list):
 
 
 
-def linearofdoublen(num_list,string_list):
+def linearoftwon(num_list,string_list):
     """
     This function can recieve input of two list that can increase to infinity
     Since we have a for loop operation, we're more concerned with how it runs at linear time.
