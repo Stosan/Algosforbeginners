@@ -5,9 +5,11 @@
 of a function when the argument tends towards a particular value or infinity. 
 It is a member of a family of notations invented by Paul Bachmann,Edmund Landau, and others,
 collectively called Bachmann–Landau notation or asymptotic notation.”
-1. Linear time complexity increases linearly as input size increases
-2. Log time complexity increases and then stops as input size increases, it is the most efficient and scalable
-3. exponential is the opposite of linear time complexity, it increases and rapidly grows as input size increases, it is not efficient and scalable
+1. Linear time 0(n) complexity increases linearly as input size increases
+2. Log time 0(log n) complexity increases and then stops as input size increases, it is the most efficient and scalable
+3. exponential 0(2n) is the opposite of linear time complexity, it increases and rapidly grows as input size increases, it is not efficient and scalable
+4. Quadratic time 0(n²) complexity increases in relation to input size increases
+5. Constant time 0(1) complexity does not respond to time increase as input size increases.
 """
 
 def linear(num_list):
